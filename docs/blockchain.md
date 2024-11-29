@@ -33,9 +33,16 @@ In blockchain, **Consistency is sacrificed** in favour of _Availability_ and _Pa
 {% hint style="info" %}
 In Bitcoin,
 
-Multiple confirmations of a transaction over time provide eventual consistency.&#x20;
+Multiple confirmations of a transaction over time provide **eventual consistency**.&#x20;
 
 * Multiple confirmations are used to build good confidence that transactions may not be rolled back in the future.&#x20;
 
 For this purpose, the process of **mining;** a `Proof of Work (PoW)` consensus algorithm was introduced in Bitcoin.
 {% endhint %}
+
+
+
+## Privacy and Anonymity&#x20;
+
+— sought-after features on the blockchain
+

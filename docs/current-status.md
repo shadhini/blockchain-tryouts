@@ -20,3 +20,11 @@ icon: calendar-day
 * Regulation
 * Standardisation&#x20;
 * Security
+
+
+
+## Blockchain Hurdles
+
+* Scalability
+* Privacy
+* Security
