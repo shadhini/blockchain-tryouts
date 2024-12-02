@@ -6,6 +6,9 @@
 
 * [The Growth of Blockchain Technology](blockchain/the-growth-of-blockchain-technology.md)
 * [Blockchain](blockchain/blockchain.md)
+* [Blockchain Architecture](blockchain/blockchain-architecture/README.md)
+  * [Blockchain By Layers](blockchain/blockchain-architecture/blockchain-by-layers.md)
+  * [Blockchain in Business](blockchain/blockchain-architecture/blockchain-in-business.md)
 * [51% Attack](blockchain/51-attack.md)
 * [Regulations](blockchain/regulations.md)
 * [Current Status](blockchain/current-status.md)

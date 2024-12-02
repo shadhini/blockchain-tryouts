@@ -19,7 +19,9 @@ icon: hive
 Blockchain is a **decentralized-distributed** system.
 {% endhint %}
 
-
+{% hint style="info" %}
+Introduced with Bitcoin blockchain in 2008 \[4]
+{% endhint %}
 
 ## Technical Definition
 
