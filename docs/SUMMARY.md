@@ -9,6 +9,7 @@
 * [Blockchain Architecture](blockchain/blockchain-architecture/README.md)
   * [Blockchain By Layers](blockchain/blockchain-architecture/blockchain-by-layers.md)
   * [Blockchain in Business](blockchain/blockchain-architecture/blockchain-in-business.md)
+* [Generic Elements of the Blockchain](blockchain/generic-elements-of-the-blockchain.md)
 * [51% Attack](blockchain/51-attack.md)
 * [Regulations](blockchain/regulations.md)
 * [Current Status](blockchain/current-status.md)

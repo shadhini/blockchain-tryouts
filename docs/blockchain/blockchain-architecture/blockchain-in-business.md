@@ -17,7 +17,7 @@ E.g.:&#x20;
 
 > From a business standpoint,&#x20;
 >
-> a blockchain is a platform where peers can exchange value using transactions **without** the need for a centrally trusted arbitrator (**a trusted third party**)
+> a **blockchain** is a platform where peers can exchange value using transactions **without** the need for a centrally trusted arbitrator (**a trusted third party**)
 >
 >
 >
@@ -27,7 +27,14 @@ E.g.:&#x20;
 
 ### Benefits of Decentralisation provided by Blockchain
 
-If no banks or central clearing houses are required, then it  leads to cost savings, faster transaction speeds, transparency, and more trust.&#x20;
+If no banks or central clearing houses are required, then it  leads to&#x20;
 
-In the payment business, blockchain can be used to facilitate cross-border and local payments in a decentralized and secure manner.&#x20;
+* cost savings,&#x20;
+* faster transaction speeds,&#x20;
+* transparency, and&#x20;
+* more trust.&#x20;
+
+
+
+In the payment business, blockchain can be used to facilitate **cross-border and local payments** in a **decentralized and secure** manner.&#x20;
 
