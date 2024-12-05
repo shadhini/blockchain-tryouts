@@ -6,6 +6,25 @@ icon: gift
 
 ## Benefits and Features
 
+1. Simplification of current paradigms
+2. Faster dealings
+3. Cost-saving
+4. Smart property
+   1. cull control over your assets
+   2. **cannot** be **double-spent** or **double-owned**
+5. Decentralisation
+6. Transparency and trust
+7. Immutability
+8. High availability
+9. Highly secure
+10. Platform for smart contracts
+    1. flexibility
+    2. speed
+    3. security&#x20;
+    4. automation for real-world scenarios &#x20;
+    5. **trustworthy** system &#x20;
+    6. significant **cost reduction**s
+
 ### 1. Simplification of current paradigms&#x20;
 
 * The current blockchain model in many industries
@@ -152,14 +171,3 @@ Blockchain technology ensures **data integrity and availability** using **proven
 
 
 
-## Transparency Vs Confidentiality
-
-> **`Trade off between Transparency and Confidentiality`**
->
-> * Blockchain typically prioritises **transparency** over **confidentiality**,&#x20;
->   * this hinder adoption by industries requiring **private and confidential transactions**, such as financial institutions.&#x20;
-> * While confidentiality is not always essential—e.g., in Bitcoin's case—there are scenarios where it is desirable.&#x20;
-
-{% hint style="info" %}
-Solutions like **Zcash** leverage **zero-knowledge proofs** to enable **anonymous transactions**, addressing this limitation.
-{% endhint %}

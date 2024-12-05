@@ -12,6 +12,7 @@
   * [Generic Elements of the Blockchain](blockchain/blockchain-architecture/generic-elements-of-the-blockchain.md)
   * [Blockchain Functionality](blockchain/blockchain-architecture/blockchain-functionality.md)
 * [Benefits and Features of Blockchain](blockchain/benefits-and-features-of-blockchain.md)
+* [Limitations of Blockchain Technology](blockchain/limitations-of-blockchain-technology.md)
 * [51% Attack](blockchain/51-attack.md)
 * [Regulations](blockchain/regulations.md)
 * [Discussion Points](blockchain/discussion-points.md)

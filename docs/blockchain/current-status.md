@@ -20,12 +20,19 @@ icon: calendar-day
 * Regulation
 * Standardisation&#x20;
 * Security
-* The privacy and confidentiality of transactions on the blockchain
+* The Privacy and Confidentiality of transactions on the blockchain
+* Scalability&#x20;
+* Interoperability
+* Governance
+* Customer confidence
+  * can decrease due to security issues leading to loss of funds
 
 
 
 ## Blockchain Hurdles
 
 * Scalability
+* Regulation
 * Privacy
 * Security
+* Interoperability
