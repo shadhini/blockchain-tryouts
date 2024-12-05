@@ -20,6 +20,7 @@ icon: calendar-day
 * Regulation
 * Standardisation&#x20;
 * Security
+* The privacy and confidentiality of transactions on the blockchain
 
 
 

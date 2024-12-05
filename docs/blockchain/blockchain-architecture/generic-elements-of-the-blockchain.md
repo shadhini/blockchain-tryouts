@@ -41,11 +41,12 @@ In this 4-node blockchain network
 
 ### Peer-to-peer network
 
+> **Peer-to-peer network**:
+>
 > A **network topology** wherein&#x20;
 >
-> &#x20; **all peers** can **communicate with each other** directly and&#x20;
->
-> &#x20; send and receive **messages**.&#x20;
+> * **all peers** can **communicate with each other** directly and&#x20;
+> * &#x20;send and receive **messages**.&#x20;
 
 
 
@@ -78,7 +79,9 @@ To enable more complex applications on blockchains, a **Turing-complete** progra
 
 ### Virtual machine
 
-> A virtual machine allows **Turing-complete code to be run on a blockchain** (as **`smart contracts`**), whereas a transaction script is limited in its operation.&#x20;
+> **Virtual Machine**:&#x20;
+>
+> allows **Turing-complete code to be run on a blockchain** (as **`smart contracts`**), whereas a transaction script is limited in its operation.&#x20;
 
 Example uses of virtual machines to run programs&#x20;
 
@@ -105,18 +108,25 @@ Virtual machines are not available on all blockchains.
 
 ### Smart contracts
 
-> **Programs** run on top of the blockchain and&#x20;
+> **Smart Contracts**:
 >
-> **encapsulate the business logic** to be executed when certain conditions are met
+> * Automated, autonomous **programs** that reside/run on the blockchain network &#x20;
+> * **encapsulate the business logic and code** needed to execute a required function when certain conditions are met
 >
-> * enforceable and automatically executable
+> — enforceable and automatically executable
 
 
 
 {% hint style="info" %}
-The smart contract feature is **not available on all** blockchain platforms.
+**Not all blockchains have** a mechanism to execute **smart contracts;**
 
 But it is **desirable** due to flexibility and power it provides to blockchain applications.
+
+
+
+Smart contract functionality is **not incorporated** in some blockchains **on purpose**&#x20;
+
+* citing the reason that hardcoded executions are faster without the complexities of general-purpose smart contracts.
 {% endhint %}
 
 Example use cases of Smart Contracts
@@ -130,7 +140,9 @@ Example use cases of Smart Contracts
 
 ### Node
 
-> A node in a blockchain network performs **various functions depending on the role** that it takes on.
+> **Node** in a blockchain network :
+>
+> performs **various functions depending on the role** that it takes on.
 >
 > * **miners** that create new blocks and mint cryptocurrency (coins)&#x20;
 >   * propose and validate transactions, perform mining to facilitate consensus and secure the blockchain
