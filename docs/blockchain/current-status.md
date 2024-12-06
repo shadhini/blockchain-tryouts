@@ -36,3 +36,16 @@ icon: calendar-day
 * Privacy
 * Security
 * Interoperability
+
+
+
+## Potential Research Work
+
+### Semi-private Blockchains
+
+{% hint style="info" %}
+Semi-private Blockchains are still a concept.
+
+No real-world proofs of concept have yet been developed.
+{% endhint %}
+

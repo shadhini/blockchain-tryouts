@@ -85,7 +85,7 @@ Achieving blockchain consensus is challenging due to&#x20;
 
 
 
-<figure><img src="../../.gitbook/assets/how-a-block-is-generated.png" alt=""><figcaption><p>How a block is generated</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/how-a-block-is-generated.png" alt="" width="563"><figcaption><p>How a block is generated</p></figcaption></figure>
 
 
 
