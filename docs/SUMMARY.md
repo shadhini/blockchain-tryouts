@@ -44,3 +44,8 @@
 ***
 
 * [References](references.md)
+
+## Decentralization
+
+* [Decentralization](decentralization/decentralization/README.md)
+  * [Centralized Vs Distributed Vs Decentralized Networks](decentralization/decentralization/centralized-vs-distributed-vs-decentralized-networks.md)
