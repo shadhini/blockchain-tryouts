@@ -45,11 +45,7 @@ Blockchain allow **anyone to start a decentralized system** and operate it with 
     depending on the type and model of governance used in the decentralized application running on the blockchain.
 {% endhint %}
 
-&#x20;
 
-## Decentralization in varying degrees&#x20;
-
-&#x20;      `semi-decentralized` | `fully decentralized`&#x20;
 
 
 

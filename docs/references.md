@@ -11,3 +11,7 @@ icon: asterisk
 \[3] W. Golab, “Proving PACELC,” SIGACT News, vol. 49, no. 1, pp. 73–81, Mar. 2018, doi: 10.1145/3197406.3197420.
 
 \[4] S. Nakamoto, “Bitcoin: A peer-to-peer electronic cash system.,” Decentralized business review, 2008. [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)
+
+\[5] “Quantifying Decentralization. We must be able to measure blockchain… | by Balaji S. Srinivasan | news.earn.com.” https://news.earn.com/quantifying-decentralization-e39db233c28e.
+
+\

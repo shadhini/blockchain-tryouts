@@ -41,10 +41,6 @@
 * [Background](bitcoin/background.md)
 * [Bitcoin](bitcoin/bitcoin.md)
 
-***
-
-* [References](references.md)
-
 ## Decentralization
 
 * [Decentralization](decentralization/decentralization/README.md)
@@ -52,3 +48,8 @@
 * [Methods of Decentralization](decentralization/methods-of-decentralization/README.md)
   * [Disintermediation](decentralization/methods-of-decentralization/disintermediation.md)
   * [Competition](decentralization/methods-of-decentralization/competition.md)
+* [Quantifying Decentralization](decentralization/quantifying-decentralization.md)
+
+***
+
+* [References](references.md)
