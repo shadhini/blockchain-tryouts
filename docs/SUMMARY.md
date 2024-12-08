@@ -49,3 +49,6 @@
 
 * [Decentralization](decentralization/decentralization/README.md)
   * [Centralized Vs Distributed Vs Decentralized Networks](decentralization/decentralization/centralized-vs-distributed-vs-decentralized-networks.md)
+* [Methods of Decentralization](decentralization/methods-of-decentralization/README.md)
+  * [Disintermediation](decentralization/methods-of-decentralization/disintermediation.md)
+  * [Competition](decentralization/methods-of-decentralization/competition.md)
