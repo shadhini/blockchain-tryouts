@@ -14,17 +14,6 @@ icon: chart-network
 
 
 
-## Benefits for organizations
-
-* increased efficiency
-* expedited decision making
-* better motivation
-* a reduced burden on upper management
-* no single point of failure &#x20;
-* no single trusted authority
-
-
-
 ## Blockchain Decentralization Model
 
 `Blockchain` -> provides a platform that does not need any intermediaries and that can function with **leaders chosen over time via consensus** mechanisms

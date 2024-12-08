@@ -17,6 +17,7 @@
   * [Blockchains](blockchain/types-of-blockchain/blockchains.md)
   * [Layer 1 Blockchains](blockchain/types-of-blockchain/layer-1-blockchains.md)
   * [Layer 2 Blockchains](blockchain/types-of-blockchain/layer-2-blockchains.md)
+* [Is blockchain-based solution suitable or not ?](blockchain/is-blockchain-based-solution-suitable-or-not.md)
 * [51% Attack](blockchain/51-attack.md)
 * [Regulations](blockchain/regulations.md)
 * [Discussion Points](blockchain/discussion-points.md)
@@ -49,6 +50,8 @@
   * [Disintermediation](decentralization/methods-of-decentralization/disintermediation.md)
   * [Competition](decentralization/methods-of-decentralization/competition.md)
 * [Quantifying Decentralization](decentralization/quantifying-decentralization.md)
+* [Benefits of Decentralization](decentralization/benefits-of-decentralization.md)
+* [Challenges](decentralization/challenges.md)
 
 ***
 
