@@ -52,6 +52,8 @@
 * [Quantifying Decentralization](decentralization/quantifying-decentralization.md)
 * [Benefits of Decentralization](decentralization/benefits-of-decentralization.md)
 * [Challenges](decentralization/challenges.md)
+* [Decentralized Systems](decentralization/decentralized-systems.md)
+* [Evaluating Requirements for Decentralization](decentralization/evaluating-requirements-for-decentralization.md)
 
 ***
 
