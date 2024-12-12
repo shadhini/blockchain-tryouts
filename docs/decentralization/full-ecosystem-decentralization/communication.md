@@ -46,9 +46,7 @@ it's not dependent on a single third party
 
 
 
-## Blockchain
 
-— Now, efforts are being made to harness its benefits.
 
 
 
