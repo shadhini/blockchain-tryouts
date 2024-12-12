@@ -54,6 +54,10 @@
 * [Challenges](decentralization/challenges.md)
 * [Decentralized Systems](decentralization/decentralized-systems.md)
 * [Evaluating Requirements for Decentralization](decentralization/evaluating-requirements-for-decentralization.md)
+* [Full-ecosystem Decentralization](decentralization/full-ecosystem-decentralization/README.md)
+  * [Storage](decentralization/full-ecosystem-decentralization/storage.md)
+  * [Communication](decentralization/full-ecosystem-decentralization/communication.md)
+  * [Computation; Computing Power](decentralization/full-ecosystem-decentralization/computation-computing-power.md)
 
 ***
 
