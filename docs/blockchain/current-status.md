@@ -26,6 +26,8 @@ icon: calendar-day
 * Governance
 * Customer confidence
   * can decrease due to security issues leading to loss of funds
+* formalize smart contract coding and testing
+  * to avoid exploitations like  `The DAO` project hack; exploitation of smart contract vulnerability
 
 
 

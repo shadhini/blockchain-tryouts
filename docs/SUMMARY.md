@@ -58,6 +58,8 @@
   * [Storage](decentralization/full-ecosystem-decentralization/storage.md)
   * [Communication](decentralization/full-ecosystem-decentralization/communication.md)
   * [Computation; Computing Power](decentralization/full-ecosystem-decentralization/computation-computing-power.md)
+* [Decentralization in Practice](decentralization/decentralization-in-practice/README.md)
+  * [DApps: Decentralized Applications](decentralization/decentralization-in-practice/dapps-decentralized-applications.md)
 
 ***
 

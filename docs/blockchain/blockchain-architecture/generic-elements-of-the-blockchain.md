@@ -112,10 +112,20 @@ Virtual machines are not available on all blockchains.
 >
 > * Automated, autonomous **programs** that reside/run on the blockchain network &#x20;
 > * **encapsulate the business logic and code** needed to execute a required function when certain conditions are met
+> * contains
+>   * business logic
+>   * limited amount of data&#x20;
+> * either actors/participants in the blockchain utilize smart contracts or they are run autonomously on behalf of network participants
 >
 > — enforceable and automatically executable
 
 
+
+{% hint style="info" %}
+**Smart contracts do not necessarily need a blockchain to run**;&#x20;
+
+But, blockchain technology has become the standard decentralized execution platform for smart contracts due to its security benefits.
+{% endhint %}
 
 {% hint style="info" %}
 **Not all blockchains have** a mechanism to execute **smart contracts;**
@@ -137,6 +147,8 @@ Example use cases of Smart Contracts
 * record management
 * insurance
 * e-governance
+
+
 
 ### Node
 
