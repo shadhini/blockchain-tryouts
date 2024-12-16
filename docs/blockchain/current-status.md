@@ -51,3 +51,15 @@ Semi-private Blockchains are still a concept.
 No real-world proofs of concept have yet been developed.
 {% endhint %}
 
+### Legalize & Regulate DAOs, DApps
+
+decentralized entities are expected to be regulated and hold legal status
+
+DOs | DAOs | DACs | DAS | DApps
+
+{% hint style="info" %}
+In the future, these entities are **expected to be regulated and hold legal status** while maintaining their decentralized nature.
+
+DAO legality: [The Legal Status of Decentralized Autonomous Organizations: Do DAOs Require New Business Structures? Some States Think So](https://fedsoc.org/commentary/fedsoc-blog/the-legal-status-of-decentralized-autonomous-organizations-do-daos-require-new-business-structures-some-states-think-so)
+{% endhint %}
+

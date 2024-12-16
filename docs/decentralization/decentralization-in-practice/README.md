@@ -156,16 +156,30 @@ a management model that uses algorithms to automate or semi-automate tasks and a
 
 #### Threats associated with Algocracy
 
-* Increasing reliance on governance by algorithms -> threat to active human participation and real-life decision-making
-  * however, when combined with blockchain, the situation improves&#x20;
+❗Traditional algocracy without blockchain
 
-This is true in traditional algocracy without blockchain. However, when combined with blockchain, the situation improves. Due to the blockchain’s decentralized and community-governed model, governance algorithms are also subject to approval and scrutiny by the community (society) operating on the blockchain. Therefore, blockchain can be seen as a solution to this threat of losing control of the decision-making process. We could call this variation of algocracy “blockcracy”, i.e., government by blockchain, after the vision of a blockchain running artificially intelligent smart contracts (algorithms) responsible for governance.
+* Increasing reliance on governance by algorithms&#x20;
+* ╰**---**➤ Threat to active human participation and real-life decision-making
+
+👉 However, when combined with blockchain, the situation improves.
+
+* Blockchain's decentralized, community-driven model enables the collective approval and scrutiny of governance algorithms by the community or society operating within the blockchain network.
+
+{% hint style="success" %}
+_**Blockcracy**_: **government by blockchain**
+
+vision of a blockchain powered by artificially intelligent smart contracts (algorithms) that take responsibility for governance
+{% endhint %}
 
 
 
 
 
 ## `DApps`: Decentralized Applications&#x20;
+
+{% content-ref url="dapps-decentralized-applications.md" %}
+[dapps-decentralized-applications.md](dapps-decentralized-applications.md)
+{% endcontent-ref %}
 
 
 

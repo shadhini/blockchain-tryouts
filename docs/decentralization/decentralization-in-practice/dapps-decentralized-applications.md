@@ -6,46 +6,180 @@ icon: clapperboard
 
 ## `DApps`: Decentralized Applications
 
-All the ideas mentioned up to this point come under the broader umbrella of decentralized applications, abbreviated to DApps (pronounced Dee-App, or now more commonly rhyming with app). DAOs, DACs, and DOs are DApps that run on top of a blockchain in a peer-to-peer network. They represent the latest advancement in decentralization technology. DApps at a fundamental level are software programs that execute using either of the following methods. They are categorized as Type 1, Type 2, or Type 3 DApps:
+`DApp` software application that runs on a decentralized network such as distributed ledger/ blockchain
 
-Type 1: These run on their own dedicated blockchain, for example, standard smart contract-based DApps running on Ethereum. If required, they make use of a native token, for example, ETH on the Ethereum blockchain. For example, Ethlance is a DApp that makes use of ETH to provide a job market.
+&#x20;**`DAOs`** | **`DACs`** | **`DOs`**&#x20;
 
-More information about Ethlance can be found at https://ethlance.com.
-
-Type 2: These use an existing established blockchain. That is, they make use of Type 1 blockchain and bear custom protocols and tokens, for example, smart contract-based tokenization DApps running on the Ethereum blockchain. An example is DAI, which is built on top of the Ethereum blockchain, but contains its own stablecoins and mechanism of distribution and control. Another example is Golem, which has its own token GNT and a transaction framework built on top of the Ethereum blockchain to provide a decentralized marketplace for computing power where users share their computing power with each other in a peer-to-peer network. An example of Type 2 DApps is the OMNI network, which is a software layer built on top of Bitcoin to support the trading of custom digital assets and digital currencies.
-
-More information on the OMNI network can be found at https://www.omnilayer.org. More information on the Golem network is available at https://golem.network. More information on DAI is available at https://makerdao.com/en/.
-
-Type 3: Use the protocols of Type 2 DApps; for example, the SAFE Network uses the OMNI network protocol.
-
-More information on the SAFE Network can be found at https://safenetwork.tech.
-
-Another example to understand the difference between different types of DApps is the USDT token (Tether). The original USDT uses the OMNI layer (a Type 2 DApp) on top of the Bitcoin network. USDT is also available on Ethereum using ERC-20 tokens. This example shows that USDT can be considered a Type 3 DApp, where the OMNI layer protocol (a Type 2 DApp) is used, which is itself built on Bitcoin (a Type 1 DApp). Also, from the perspective of Ethereum, USDT can also be considered a Type 3 DApp in that it makes use of the Type 1 DApp Ethereum blockchain using the ERC-20 standard, which was built to operate on Ethereum.
-
-More information can be found about Tether at https://tether.to.
-
-In the last few years, the expression DApp has been increasingly used to refer to any end-to-end decentralized blockchain application, including a user interface (usually a web interface), smart contract(s), and the host blockchain. The clear distinction between different types of DApps is now not commonly referred to, but it does exist. Often, no reference to their type is made and they are all called just DApps. There are thousands of different DApps running on various platforms (blockchains) now. There are various categories of these DApps covering media, social, finance, games, insurance, and health. There are various decentralized platforms (or blockchains), such as Ethereum, Solana, Avalanche, Polkadot, and EOS. Some DApps stats are available here: https://thedapplist.com.
+* In recent years, the term DApp describes fully decentralized blockchain applications, including&#x20;
+  * a web-based user interface,&#x20;
+  * smart contracts, and&#x20;
+  * the underlying blockchain
 
 
 
 
 
+{% hint style="info" %}
+**DApps stats**: [https://thedapplist.com](https://thedapplist.com).
+{% endhint %}
+
+### `Type 1` DApps:
+
+> **Type 1 DApps**:
+>
+> * run on their own dedicated blockchain
+> * If required, they make use of a native token
+>   * e.g: ETH on the Ethereum blockchain
+
+E.g:&#x20;
+
+* standard smart contract-based DApps running on Ethereum
+* [`Ethlance`](https://ethlance.com) is a DApp that makes use of ETH to provide a job market
 
 
-Criteria for a DApp For an application to be considered decentralized, it should meet the following criteria:
 
-Decentralized: The DApp should be fully decentralized. In other words, no single entity should be in control of its operations. All changes to the application must be consensus-driven based on the view given by the community. Opensource: It must be open source for public scrutiny and transparency. Cryptographically secure: State transition and the data of the application must be cryptographically secured and stored on a blockchain to avoid any central points of failure. Note that data does not necessarily need to be encrypted to provide confidentiality but should be protected against unauthorized manipulation. Data integrity, authentication, and non-repudiation services should be provided. Incentive availability: A cryptographic token must be used by the application to provide access and incentives for those who contribute value to the applications, for example, miners in Bitcoin. This requirement can be relaxed in a consortium chain where a token can still be used for value transfer, but not as a cryptocurrency. Proof of value: The tokens (if applicable) must be generated by the decentralized application using consensus and an applicable cryptographic algorithm. This generation of tokens acts as a proof of the value to contributors (for example, miners).
+### `Type 2` DApps:&#x20;
 
-Generally, DApps now provide all sorts of different services, including but not limited to financial applications, gaming, social media, and supply chain management.
+> **Type 2 DApps**:
+>
+> * use an existing established blockchain
+>   * make use of Type 1 blockchain and bear custom protocols and tokens
+
+E.g:
+
+* smart contract-based tokenization DApps running on the `Ethereum` blockchain
+* [`DAI`](https://makerdao.com/en/):&#x20;
+  * built on top of the Ethereum blockchain
+  * but contains its own `stablecoins` and mechanism of distribution and control
+* [`Golem`](https://golem.network):&#x20;
+  * has its own token: `GNT`, and&#x20;
+  * has its own transaction framework built on the `Ethereum` blockchain: it enables a decentralized marketplace for computing power where users share resources in a P2P network
+* [`OMNI`](https://www.omnilayer.org) network
+  * a software layer built on `Bitcoin`&#x20;
+  * enables the trading of custom digital assets and currencies
+
+
+
+### `Type 3` DApps:&#x20;
+
+> **Type 3 DApps**:
+>
+> * Use the protocols of Type 2 DApps
+
+* [`SAFE`](https://safenetwork.tech) Network&#x20;
+  * uses the `OMNI` network protocol
+* [`Tether: USDT`](https://tether.to) token
+  * original `USDT` operates on the `OMNI` layer built on the `Bitcoin` network
+    * `USDT`: Type 3 DApp
+    * `OMNI` layer protocol: Type 2 DApp
+    * `Bitcoin`: Type 1 DApp
+  * also available as `ERC-20` tokens on the `Ethereum` network
+    * `USDT`: Type 3 DApp
+    * `Ethereum`: Type 1 DApp
+
+
+
+## Criteria for a `DApp`&#x20;
+
+For an application to be considered decentralized, it should be:
+
+#### 1. Decentralized:&#x20;
+
+* no single entity should control its operations
+* any changes to the application must be driven by community consensus
+
+#### 2. Open-source:&#x20;
+
+* should be open source to ensure transparency and allow public scrutiny
+
+#### 3. Cryptographically secure:&#x20;
+
+* state transitions and data must be cryptographically secured and&#x20;
+  * stored on a blockchain to eliminate central points of failure
+* Encryption is not always required for confidentiality
+  * but data must be protected against unauthorized manipulation.
+* Services that should to be provided
+  * data integrity
+  * authentication&#x20;
+  * non-repudiation&#x20;
+
+#### 4. Incentive availability:&#x20;
+
+* must use a cryptographic token to enable access and reward contributors
+  * e.g: miners in Bitcoin
+* In a `consortium chain`, this requirement can be flexible,&#x20;
+  * with tokens used for value transfer rather than as a cryptocurrency
+
+#### 5. Proof of value:&#x20;
+
+* If applicable,  tokens must be generated by the decentralized application through consensus using a suitable cryptographic algorithm
+* Token generation serves as proof of value for contributors
+  * e.g for miners
+
+
+
+## Operations of a `DApp`&#x20;
+
+A DApp can **establish consensus** through algorithms like&#x20;
+
+* Proof of Work (`PoW`) : &#x20;
+  * has proven to be highly attack-resistant
+    * demonstrated by the trust and success of the Bitcoin network
+* Proof of Stake (`PoS`)
+
+A DApp can **distribute tokens (or coins)** through methods such as&#x20;
+
+* mining
+* fundraising&#x20;
+* development
 
 
 
 
 
-Operations of a DApp Establishment of consensus by a DApp can be achieved using consensus algorithms such as Proof of Work (PoW) and Proof of Stake (PoS). So far, only PoW has been found to be incredibly resistant to attacks, as is evident from the trust people have put in the Bitcoin network, along with its success. Furthermore, a DApp can distribute tokens (coins) via mining, fundraising, and development.&#x20;
+## Design of a `DApp`&#x20;
+
+
+
+<figure><img src="../../.gitbook/assets/traditional-application-architecture.png" alt=""><figcaption><p>Traditional (client-server) Application Architecture</p></figcaption></figure>
+
+Traditional apps have&#x20;
+
+* `Frontend`: a user interface&#x20;
+* `Web Server`: a web server / an application server&#x20;
+* `Backend Database`
+
+
+
+<figure><img src="../../.gitbook/assets/generic-dapp-architecture.png" alt=""><figcaption><p>Generic DApp Architecture</p></figcaption></figure>
+
+DApp has
+
+* `Frontend`: Thick client | Mobile app | web frontend (web user interface)
+  * \[usually] web frontend written using a JavaScript framework like React / Angular
+* `Middleware`: API
+* `Backend`: blockchain&#x20;
+  * smart contract that runs on the blockchain has the business logic
+
+
+
+<table><thead><tr><th width="152" align="center">Entity</th><th align="center">DO</th><th align="center">DAO</th><th align="center">DAC</th><th align="center">DAS</th><th align="center">DApp</th></tr></thead><tbody><tr><td align="center">Autonomous?</td><td align="center">No</td><td align="center">Yes</td><td align="center">Yes</td><td align="center">Yes</td><td align="center">Yes</td></tr><tr><td align="center">Software?</td><td align="center">No</td><td align="center">Yes</td><td align="center">Yes</td><td align="center">Yes</td><td align="center">Yes</td></tr><tr><td align="center">Owned?</td><td align="center">Yes</td><td align="center">No</td><td align="center">Yes</td><td align="center">No</td><td align="center">Yes</td></tr><tr><td align="center">Capital ?</td><td align="center">Yes</td><td align="center">Yes</td><td align="center">Yes</td><td align="center">Possible</td><td align="center">Optional tokens</td></tr><tr><td align="center">Legal status?</td><td align="center">Yes</td><td align="center">Some work has begun</td><td align="center">Unsettled</td><td align="center">Unsettled</td><td align="center">Unsettled</td></tr><tr><td align="center">Cost</td><td align="center">High</td><td align="center">Low</td><td align="center">Low</td><td align="center">Low</td><td align="center">Use case dependent</td></tr></tbody></table>
+
+
+
+{% hint style="info" %}
+In the future, these entities are **expected to be regulated and hold legal status** while maintaining their decentralized nature.
+
+DAO legality: [The Legal Status of Decentralized Autonomous Organizations: Do DAOs Require New Business Structures? Some States Think So](https://fedsoc.org/commentary/fedsoc-blog/the-legal-status-of-decentralized-autonomous-organizations-do-daos-require-new-business-structures-some-states-think-so)
+{% endhint %}
+
+
+
+{% hint style="info" %}
+**Blockchain networks** like `Bitcoin`, `Ethereum`, `Solana`, `Hyperledger Fabric`, and `Quorum` can serve as decentralized platforms for building and hosting DApps.
+{% endhint %}
 
 
 
 
 
-Design of a DApp A DApp is a software application that runs on a decentralized network such as a distributed ledger. They have recently become very popular due to the development of various decentralized platforms such as Ethereum, Solana, EOS, and Tezos. Traditional apps commonly consist of a user interface and usually a web server or an application server and a backend database. This is a common client/server architecture. This is visualized in the following diagram:
