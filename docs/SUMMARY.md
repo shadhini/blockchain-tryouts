@@ -60,8 +60,14 @@
   * [Computation; Computing Power](decentralization/full-ecosystem-decentralization/computation-computing-power.md)
 * [Decentralization in Practice](decentralization/decentralization-in-practice/README.md)
   * [DApps: Decentralized Applications](decentralization/decentralization-in-practice/dapps-decentralized-applications.md)
+* [Innovative Trends](decentralization/innovative-trends/README.md)
+  * [Decentralized Web](decentralization/innovative-trends/decentralized-web.md)
 
 ***
 
 * [References](references.md)
 * [Glossary](glossary.md)
+
+## Cryptography
+
+* [Page 1](cryptography/page-1.md)
