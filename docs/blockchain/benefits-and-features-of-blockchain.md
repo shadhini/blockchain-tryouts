@@ -12,7 +12,7 @@ icon: gift
 4. Smart property
    1. cull control over your assets
    2. **cannot** be **double-spent** or **double-owned**
-5. Decentralisation
+5. Decentralization
 6. Transparency and trust
 7. Immutability
 8. High availability
@@ -100,7 +100,7 @@ Although many **Digital Rights Management (DRM)** schemes are being used current
 
 
 
-### 5. Decentralisation
+### 5. Decentralization
 
 {% hint style="success" %}
 There is **no need for a trusted third party or intermediary** to validate transactions;&#x20;
