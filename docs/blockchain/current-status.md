@@ -28,6 +28,8 @@ icon: calendar-day
   * can decrease due to security issues leading to loss of funds
 * formalize smart contract coding and testing
   * to avoid exploitations like  `The DAO` project hack; exploitation of smart contract vulnerability
+* Non-repudiation
+  * Disputes in electronic transactions are a common issue, and there is a need to address them to increase consumers’ confidence levels in such services.
 
 
 
