@@ -70,4 +70,4 @@
 
 ## Cryptography
 
-* [Page 1](cryptography/page-1.md)
+* [Cryptography](cryptography/cryptography.md)
