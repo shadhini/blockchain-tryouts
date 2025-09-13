@@ -37,9 +37,13 @@ icon: calendar-day
 
 * Scalability
 * Regulation
-* Privacy
+*   #### Privacy and Anonymity&#x20;
+
+    — sought-after features on the blockchain
 * Security
 * Interoperability
+
+####
 
 
 

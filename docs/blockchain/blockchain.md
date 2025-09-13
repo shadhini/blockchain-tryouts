@@ -13,7 +13,7 @@ icon: hive
 >
 >
 
-* Originally intended to be and is usually used a s a decentralized platform.
+* Originally intended to be and is usually used as a decentralized platform.
 
 {% hint style="success" %}
 Blockchain is a **decentralized-distributed** system.
@@ -121,8 +121,4 @@ For this purpose, the process of **mining;** a `Proof of Work (PoW)` consensus a
 {% endhint %}
 
 
-
-## Privacy and Anonymity&#x20;
-
-— sought-after features on the blockchain
 
