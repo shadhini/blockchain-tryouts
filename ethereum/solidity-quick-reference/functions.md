@@ -20,7 +20,7 @@ function <NAME>(<PARAMETER_LIST>) <VISIBILITY> <STATE_MUTABILITY> <virtual?> <ov
     - `payable`: allows receiving Ether (used with `msg.value`)
     - if function might modify state, omit `view`/`pure`/`payable` (or use `payable` if it accepts ETH)
 - MODIFIER_LIST: zero or more modifiers
-    - `onlyOwner`
+    - built-in or user-defined custom modifiers
 - RETURN_LIST: (<TYPE> <NAME>, ...) — return variables may be named
 - `virtual` / `override`: used for inheritance
     - declare `virtual` in base, `override` in derived
