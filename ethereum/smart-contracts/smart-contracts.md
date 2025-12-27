@@ -7,4 +7,5 @@
    - stores & retrieves a number
    - set() get() functions
 3. Will
-4. 
+   - a last will & automation fo payout of inheritance upon death
+

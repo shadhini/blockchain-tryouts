@@ -9,7 +9,12 @@ every transaction has a gas fee
   - smart contract deployment is also a transaction that requires gas
 every time you call a function in a deployed smart contract, it gets recorded on the blockchain 
 
+`wei`:
+- the smallest measurement of ETH is `wei` (1 ETH = 10^18 wei)
+
 ## REMIX IDE
+default currency unit in REMIX IDE is `wei`
+
 `Solidity Compiler`:
 - translates Solidity code into EVM bytecode (machine language) that can be deployed and executed on the Ethereum blockchain
 `Solidity Analyzers`:
@@ -31,12 +36,21 @@ every time you call a function in a deployed smart contract, it gets recorded on
     - `Environment`: tells Remix which blockchain it should connect to for deployment
         - e.g: a simulated JavaScript VM, a testnet like Sepolia, a local blockchain
     - `contract`
-    - `account`: the address that will pay for the deployment transaction
+    - `account`: the account/address/wallet we use to interact with the blockchain network 
+      - the wallet account/address from which the deployment transaction will be sent
+        - this address will pay for the deployment transaction
       - a gas fee will be deducted from this account upon deployment
     - `gas limi`t: maximum amount of gas you're willing to spend on the deployment transaction
-    - `value`: amount of ETH (in wei) to send along with the deployment transaction (if applicable)
-    - `Deployed Contracts`: once deployed, your contract will appear here with contract name and address
+    - `value`: amount of ETH (in `wei`) to send along with the deployment transaction (if applicable)
+      - amount of ETH that the owner of the account is willing to send to the contract upon deployment
+      - to send a positive value during deployment, the contract’s constructor must be payable; otherwise the deployment reverts
+    - `Deployed Contracts`: 
+      - once deployed, your contract will appear here with contract name and address
+        - <CONTRACT_NAME> at 0x<CONTRACT_ADDRESS>
+        - the CONTRACT_ADDRESS is the unique address on the blockchain where your contract resides; it is different from your wallet/account address
       - it will show available functions (public interface) and you can interact with them
+      - when filling address fields of functions of deployed contracts, make sure to wrap them in double quotes
+      - usually ETH amounts are in `wei` 
 - interact with deployed contract via REMIX IDE or custom front-end
 - test thoroughly on testnet
 - Debugging & Troubleshooting
