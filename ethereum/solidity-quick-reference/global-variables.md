@@ -2,44 +2,50 @@
 
 ## Caller / transaction globals
 
-`msg.sender`
-- address of the caller (address)
+`msg.sender` (address payable)
+- address of the current caller (address); sender of the message (call)
 - the address of the account or contract that initiated the current function call
 - use `payable` if you need to send ETH
 - if inside a constructor, it represents the address deploying the contract
 
-`msg.value`
+`msg.value` (uint256)
 - uint256 amount of Wei sent with the call
 - the amount of Ether (in wei) sent along with the transaction that invoked the current function
 - only meaningful in payable functions/constructor
 - if inside a constructor, it represents the amount of Ether sent during contract deployment
 
-`msg.data`
+`msg.data` (bytes calldata)
 - bytes `calldata` of the call (raw `calldata`)
+- complete calldata (function selector + parameters)
 
-`msg.sig`
+`msg.sig` (bytes4)
 - bytes4 function selector (first 4 bytes of `msg.data`)
+- function identifier
 
-`tx.origin`
+`tx.origin` (address payable)
 - address of the original external account that started the transaction (address)
 - avoid using for auth (phishing risk)
 - Note: `tx.origin != msg.sender` when calls are chained through other contracts
 
+`tx.gasprice` (uint256)
+- gas price of the transaction (pre-EIP-1559)
+- For user-supplied transactions it’s set; with EIP-1559 consider basefee + tip patterns
+
 ## Block / chain globals
 
 `block.timestamp` (uint256)
-- timestamp of current block (seconds)
+- timestamp of current block (seconds since Unix epoch)
 - Not precise; don’t rely on for exact time-sensitive randomness
 
 `block.number` (uint256)
 - current block number
 
 `block.coinbase` (address)
-- address of block miner/validator
+- address of current block miner/validator
 - can be used for miner incentives
 
 `block.difficulty` (uint256)
-- difficulty
+- current block difficulty
 - historically used; after the Merge its semantics changed
 
 `block.prevrandao` (uint256)
@@ -55,13 +61,14 @@
 
 `blockhash(uint blockNumber)` returns bytes32
 - block hash for given block number
-- only works for last 256 blocks; otherwise returns zero
+- only works for most recent 256 blocks excluding current; otherwise returns zero
 
-## Transaction-level globals
+`block.gaslimit` (uint256)
+- gas limit of current block
 
-`tx.gasprice` (uint256)
-- gas price of the transaction (pre-EIP-1559)
-- For user-supplied transactions it’s set; with EIP-1559 consider basefee + tip patterns
+gasleft() returns (uint256)
+- remaining gas
+
 
 ## Address / contract helpers
 

@@ -1,4 +1,5 @@
 # Functions
+functions can return multiple values
 
 FORMAT
 ```text
@@ -24,3 +25,21 @@ function <NAME>(<PARAMETER_LIST>) <VISIBILITY> <STATE_MUTABILITY> <virtual?> <ov
 - RETURN_LIST: (<TYPE> <NAME>, ...) — return variables may be named
 - `virtual` / `override`: used for inheritance
     - declare `virtual` in base, `override` in derived
+
+## Function Destructuring
+
+tuple destructuring (multiple-assignment) in Solidity
+
+```solidity
+function f3() public pure returns (uint, bool, string memory) {
+    return (3, true, 'Goodbye!');
+}
+
+function g() public {
+    (changeValue,,) = f3(); // assigns the first return value (the uint) to changeValue
+}
+```
+- the left-hand side unpacks that tuple; 
+- empty slots (`,,`) discard values
+
+

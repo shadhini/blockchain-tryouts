@@ -15,7 +15,9 @@ MODIFIER_LIST - variable special modifiers:
 LOCATION - storage location specifiers (**for reference types**):
 - `storage`: reference to contract storage (persistent)
 - `memory`: temporary, function-local, not persisted (cheaper for temporary data)
-- `calldata`: read-only input data for external function parameters (gas-cheaper and can't be modified)
+- `calldata`: read-only input data for external function parameters 
+  - immutable, cannot be modified within the function
+  - gas-cheaper
 VISIBILITY - (for state variables and functions):
 - `public` — auto-generated getter for state variables
     - these getters become entries in `JSON ABI`
@@ -30,14 +32,21 @@ TYPE - types:
 
 ##  Variable Types
 
-state variables: `variables declared at contract scope`
+**state variables**: `variables declared at contract scope`
 - declared at contract scope
-- persistent, stored on-chain
-local variable
-- declared inside functions
+- persistent, permanently stored on-chain contract storage
+**local variable**
+- declared inside functions; accessible only within function scope
+- Visibility modifiers (public, private, internal, external) do not apply to local variables; 
+  - the compiler will reject them
+- local variables live only inside a function
+- their behavior is controlled by data location and type, not visibility
 - by default
-    - value types live on the stack
-    - reference types require an explicit data location: `memory` or `storage`
-- in memory/stack
-function parameters
+  - value types live on the stack
+  - reference types require an explicit data location: `memory` or `storage`
+- in memory/stack, they are temporary and discarded after function execution
+**function parameters**
 - `memory` or `calldata`
+**global variables**
+- special built-in variables that exists in the global namespace
+- [global-variables.md](https://github.com/shadhini/blockchain-tryouts/blob/main/ethereum/solidity-quick-reference/global-variables.md)

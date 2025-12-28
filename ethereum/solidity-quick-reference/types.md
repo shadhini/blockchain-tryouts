@@ -8,7 +8,7 @@
 - `uint`: unsigned integers -- positive whole numbers
   - `uint` alias for `uint256`
   - `uint8`..`uint256`
-- `address`: holds Ethereum addresses
+- `address`: holds Ethereum addresses - 20 byte value
 - `bytes<NUMBER>`: for raw byte sequences; fixed-size byte arrays
   - `bytes1`..`bytes32`
 - `enum`: for custom enumerated types; user-defined value type of fixed length
@@ -18,7 +18,7 @@
 - `string`: dynamically-sized UTF-8 encoded string
 - `array`: ordered collection of elements
 - `struct`: custom data types/structures that group related variables
-- `mapping`: key-value store for efficient data retrieval
+- `mapping`: key-value store for efficient data retrieval; acts as hash tables
 - `bytes`: dynamically-sized byte arrays
 
 ## Arrays

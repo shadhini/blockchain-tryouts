@@ -50,6 +50,8 @@ Built-in Solidity function attributes / modifiers:
 - `payable`
   - allows a function to receive Ether
   - @ constructor: allows the contract to receive and store Ether sent along with the deployment transaction
+  - if an address variable is marked `payable`, it can receive Ether directly; 
+    - otherwise, sending Ether to a non-payable address will result in a compilation error
 - `virtual`  
   - marks a function as overridable by derived contracts
 - `override` 
