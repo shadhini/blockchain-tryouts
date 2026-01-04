@@ -3,15 +3,15 @@
 `smart contracts`: 
 - collection of code (functions) and data (state) that resides at a specific address on the Ethereum blockchain 
   - when contract is deployed
-    `wei`:
+`wei`:
 - the smallest measurement of ETH is `wei` (1 ETH = 10^18 wei)
 `gas fee`:
   -  represent the cost of executing a transaction or computation on the blockchain
-every transaction has a gas fee
-  - smart contract deployment is also a transaction that requires gas
-every time you call a function in a deployed smart contract, it gets recorded on the blockchain 
 `gas`:
   - measured in `wei` and determines Ether spends based on gas price
+every transaction has a gas fee
+  - smart contract deployment is also a transaction that requires gas
+every time you call a function in a deployed smart contract, it gets recorded on the blockchain
 
 
 ## REMIX IDE
@@ -31,6 +31,8 @@ default currency unit in REMIX IDE is `wei`
 - Version mismatches: If your pragma directive specifies a version that the selected compiler doesn't support
 
 ## Process
+
+### REMIX IDE
 
 - draft smart contract
 - check compile errors: REMIX IDE `Solidity Compiler` tab
@@ -64,4 +66,5 @@ default currency unit in REMIX IDE is `wei`
 - once satisfied, deploy to mainnet
 
 ## Pegging tokens created in smart contracts to a native cryptocurrency (e.g., ETH)
+
 `stabilize the token's value agains the blockchain's native/main currency`
