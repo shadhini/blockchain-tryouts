@@ -1,5 +1,6 @@
 # Solidity Quick Reference
-`statically typed`
+`statically-typed scripting language`
+- processes are verified at compile time
 
 `=`: assignment
 `==`: equality comparison
@@ -9,6 +10,11 @@
 `&&`: logical AND
 `||`: logical OR
 `!`: logical NOT
+
+`memory`: temporary storage, erased between function calls, cheaper to use
+`storage`: persistent storage on the blockchain, persistent between function calls, more expensive to use
+- all the contract state variables are stored in `storage`
+
 
 ## Types
 [types.md](https://github.com/shadhini/blockchain-tryouts/blob/main/ethereum/solidity-quick-reference/types.md)

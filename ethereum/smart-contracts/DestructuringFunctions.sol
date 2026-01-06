@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.10;
 
-// understanding destructuring functions in solidity
+// understanding destructuring functions with multiple return values in solidity
 contract DestructuringFunctions {
 
     uint public changeValue;
